@@ -9,11 +9,11 @@ import { Feedbacks } from './feedbacks/entities/feedbacks.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '',
+      host: 'sql11.freemysqlhosting.net',
       port: 3306,
-      username: '',
-      password: '',
-      database: 'db_feedbacks',
+      username: 'sql11469727',
+      password: 'qk431LVgEk',
+      database: 'sql11469727',
       entities: [ Feedbacks ],
       synchronize: true,
       dropSchema: false
